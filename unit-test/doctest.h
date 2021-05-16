@@ -4192,8 +4192,8 @@ namespace detail {
         // IF THE DEBUGGER BREAKS HERE - GO 1 LEVEL UP IN THE CALLSTACK FOR THE FAILING ASSERT
         // THIS IS THE EFFECT OF HAVING 'DOCTEST_CONFIG_SUPER_FAST_ASSERTS' DEFINED
         // ###################################################################################
-        DOCTEST_ASSERT_OUT_OF_TESTS(result.m_decomp);
-        DOCTEST_ASSERT_IN_TESTS(result.m_decomp);
+        // DOCTEST_ASSERT_OUT_OF_TESTS(result.m_decomp);
+        // DOCTEST_ASSERT_IN_TESTS(result.m_decomp);
     }
 
     MessageBuilder::MessageBuilder(const char* file, int line, assertType::Enum severity) {

@@ -23,7 +23,7 @@
 #ifndef TEST_H
 #define TEST_H
 
-#include "box2d/box2d.h"
+#include "../include/box2d/box2d.h"
 #include "draw.h"
 
 #include <stdlib.h>

@@ -24,10 +24,10 @@
 #define DRAW_H
 
 #define GLFW_INCLUDE_NONE
-#include "glad/gl.h"
-#include "GLFW/glfw3.h"
+#include "../extern/glad/include/glad/gl.h"
+#include "../extern/glfw/include/GLFW/glfw3.h"
 
-#include "box2d/box2d.h"
+#include "../include/box2d/box2d.h"
 
 struct b2AABB;
 struct GLRenderPoints;
